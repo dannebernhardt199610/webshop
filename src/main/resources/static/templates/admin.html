@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webshop</title>
+    <link rel="stylesheet" type="text/css" href="../css/dannee.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="../script/admin.js"></script>
+    <link rel="icon" href="#" type="image/x-icon">
+</head>
+
+<body>
+<h1 class="h1h1">Adminpage</h1>
+<div>
+    <button type='submit' id = "logout-admin">Logout</button> <br> <br>
+    <hr>
+</div>
+<div>
+    <h2 id="h2admin">Users</h2>
+    <table class = "admin-table" id = "admin-users">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Adress</th>
+            <th>Email</th>
+            <th>Username</th>
+            <th>Password</th>
+            <th>Role</th>
+            <th>Total shopped for</th>
+        </tr>
+    </table>
+</div>
+<div>
+    <br> <h2 id = "ordered-by"></h2>
+    <table class = "admin-table" id = "orders"></table>
+</div>
+<div>
+    <br> <h2 id = "product-tag"></h2>
+    <table class = "admin-table" id = "products"></table>
+</div>
+</body>

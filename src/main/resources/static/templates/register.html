@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <title>Webshop_register</title>
+    <link rel="stylesheet" type="text/css" href="../css/dannee.css"/>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+    <script src="../script/register.js"></script>
+    <link rel="icon" href="#" type="image/x-icon">
+</head>
+
+<body>
+<div>
+    <h1 class="h1h1">Register page</h1>
+    <form id="register-form" class="register-form-class">
+
+        <br/>
+        <label  class="password-label" for="firstname">firstname: </label>
+        <input type="text" id="firstname" name="firstname" class="password-value">   <br/>
+
+        <label  class="password-label" for="lastname">lastname: </label>
+        <input type="text" id="lastname" name="lastname" class="password-value">    <br/>
+
+        <label  class="password-label" for="address">Adress: </label>
+        <input type="text" id="address" name="address" class="password-value">     <br/>
+
+        <label  class="password-label" for="username">Username: </label>
+        <input type="text" id="username" name="username" class="password-value">    <br/>
+
+        <label  class="password-label" for="password">Password: </label>
+        <input type="password" id="password" name="password" class="password-value">    <br/>
+
+        <label  class="password-label" for="email">Email: </label>
+        <input type="email" id="email" name="email" class="password-value">       <br/>
+
+        <br/><br/>
+
+        <input class="registerbtn" type="submit"  value="Register"/>
+    </form>
+
+    <div class="register-message"></div>
+</div>
+</body>
+</html>

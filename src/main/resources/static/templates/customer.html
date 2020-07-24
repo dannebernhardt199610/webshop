@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <title>Webshop_customer</title>
+    <link rel="stylesheet" type="text/css" href="../css/dannee.css"/>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="../script/customer.js"></script>
+    <link rel="icon" href="#" type="image/x-icon">
+</head>
+
+
+<body>
+<div class="customer-page-header">
+    <h1 class="h1h1">Wares</h1>
+
+    <!-- *****SEARCH********-->
+
+    <div class="search-block">
+        <label for="search-input"></label>
+        <input  class="search-wares" type="text" id="search-input" placeholder="Search wares.."/>
+        <input  class="search-wares" type="submit" id="search-btn" value="Search"/>
+
+        <div class="found-products"></div>
+    </div>
+</div>
+
+<!-- ****USER*****-->
+
+<div class="logout-block">
+    <br>
+    <div id="logout-block">
+        <!--javascript fyller detta-->
+    </div>
+    <br>
+    <button class="logout2" type='submit' id='logout-btn'>Logout</button>
+</div>
+
+<hr/>
+
+<!-- ****PRODUCT****-->
+<div id="product-block" class="product-block">
+    <!--det är javascript som fyller det-->
+</div>
+
+<!--*****CART*****-->
+<div class="cart-block">
+    <h1>Cart</h1>
+    <table class="cart-tabell">
+    </table>
+
+    <br/>
+    <span>
+        <label>Total: </label>  <label class="total"></label> kr
+        </span>
+    <label class="discount-msg" id ="discount-msg"></label>
+    <br/>
+    <button  class="buy-wares" id="buy" type="submit">Buy</button>
+    <button class="buy-wares" id = "clear" type="submit" >Empty cart</button>
+</div>
+
+</body>
+</html>
